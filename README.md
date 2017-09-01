@@ -9,9 +9,9 @@ http://www.qianduan8.com/739.html
 
 #### HTML
 >1. 加载 sea.js
-2.  插件进行 cmd 方式加载
-3. 设置 seajs.config({ // todo }) 文件
-4. seajs.use() 调用
+>2.  插件进行 cmd 方式加载
+>3. 设置 seajs.config({ // todo }) 文件
+>4. seajs.use() 调用
 
 
 ##### 1、插件的使用（本例子中，slide为插件）
@@ -49,10 +49,10 @@ seajs.config({
     ]
 });
 ```
-**alias** 别名配置，配置可以使用 `require('jquery')` <br />
-**vars** 变量配置，配置模块中的变量值，在模块中使用`{key}` <br />
-**paths** 设置路径，在config中设置路径，不影响`base`情况下指定某个目录 <br />
-**map** 该配置可对模块路径进行映射修改，可用于路径转换、在线调试等。
+>**alias** 别名配置，配置可以使用 `require('jquery')` <br />
+>**vars** 变量配置，配置模块中的变量值，在模块中使用`{key}` <br />
+>**paths** 设置路径，在config中设置路径，不影响`base`情况下指定某个目录 <br />
+>**map** 该配置可对模块路径进行映射修改，可用于路径转换、在线调试等。
 
 ##### 3、页面调用
 ```
@@ -103,3 +103,4 @@ define(function (require, exports, module) {
 	}
 });
 ```
+使用 Sea.js，在书写文件时，需要遵守 CMD （Common Module Definition）模块定义规范。一个文件就是一个模块。如果你使用过nodejs，这对你来说将会非常友好!
