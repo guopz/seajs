@@ -14,7 +14,7 @@ http://www.qianduan8.com/739.html
 >4. seajs.use() 调用
 
 
-##### 1、插件的使用（本例子中，slide为插件）
+##### 1、插件的使用
 ```
 define(function(require, exports, module) {
     // slide插件代码
