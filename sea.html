@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="js/libs/sea.js"></script>
+</head>
+<body>
+	<div id="text">212</div>
+	<script src="data/dist.js"></script>
+	<script>
+		
+		seajs.use('{enter}/main',function(main) {
+			main.init('你好！');
+		});
+		
+		// define('console', function(require, exports, module){
+		// 	exports.log = function(msg) {
+		// 		if (window.log && console.log) {
+		// 			console.log(msg);
+		// 		} else {
+		// 			alert(msg);
+		// 			console.log(module.id);
+		// 		}
+		// 	};
+		// });
+		// seajs.use('console', function(console) {
+		// 	console.log('hello world!');
+		// });
+		
+	</script>
+</body>
+</html>
