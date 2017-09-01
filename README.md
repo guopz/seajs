@@ -1,14 +1,14 @@
 ### Seajs
 
 下载
-https://seajs.github.io/seajs/docs/#downloads
-基本介绍
-http://yslove.net/seajs/
-快速上手
+>https://seajs.github.io/seajs/docs/#downloads <br />
+基本介绍 <br />
+http://yslove.net/seajs/ <br />
+快速上手 <br />
 http://www.qianduan8.com/739.html
 
 #### HTML
-1. 加载 sea.js
+>1. 加载 sea.js
 2.  插件进行 cmd 方式加载
 3. 设置 seajs.config({ // todo }) 文件
 4. seajs.use() 调用
@@ -49,9 +49,9 @@ seajs.config({
     ]
 });
 ```
-**alias** 别名配置，配置可以使用 `require('jquery')`
-**vars** 变量配置，配置模块中的变量值，在模块中使用`{key}`
-**paths** 设置路径，在config中设置路径，不影响`base`情况下指定某个目录
+**alias** 别名配置，配置可以使用 `require('jquery')` <br />
+**vars** 变量配置，配置模块中的变量值，在模块中使用`{key}` <br />
+**paths** 设置路径，在config中设置路径，不影响`base`情况下指定某个目录 <br />
 **map** 该配置可对模块路径进行映射修改，可用于路径转换、在线调试等。
 
 ##### 3、页面调用
